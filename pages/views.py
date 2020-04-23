@@ -1,8 +1,10 @@
 from django.views.generic import TemplateView
 
 
-class HomePageView(TemplateView):
-    template_name = 'pages/home.html'
+class HomePageView(request):
+	messages.success(request, 'Cadeau supprimé.')
+
+    return render(request, 'pages/home.html')
 
 
 class AboutPageView(TemplateView):
