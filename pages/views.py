@@ -17,7 +17,7 @@ from django.conf import settings
 
 
 def HomePageView(request):
-	messages.success(request, 'Cadeau supprimé.')
+	messages.success(request, 'Toastr marche !')
 
 	return render(request, 'pages/home.html')
 
