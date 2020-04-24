@@ -19,7 +19,7 @@ from django.conf import settings
 def HomePageView(request):
 	messages.success(request, 'Toastr marche !')
 
-	return render(request, 'pages/home.html')
+	return render(request, 'pages/home.html', {'test': 'ca marche'})
 
 
 class AboutPageView(TemplateView):
