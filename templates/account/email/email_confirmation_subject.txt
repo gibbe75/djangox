@@ -1,0 +1,5 @@
+{% load account %}
+{% load i18n %}
+{% autoescape off %}
+{% blocktrans  with site_name=current_site.name %}{{ site_name }} - Welcome {{ user_display }}! Please Confirm your email address{% endblocktrans %}
+{% endautoescape %}
