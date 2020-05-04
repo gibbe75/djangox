@@ -5,7 +5,7 @@
 
 {% blocktrans with site_name=current_site.name site_domain=current_site.domain %}Dear {{ user_display }},
 
-We're delighted to have you on board! To active your account, please confirm your email address on {{ activate_url }}
+We're delighted to have you on board! To active your {{ site_name }} account, please confirm your email address on {{ activate_url }}
 {% endblocktrans %}
 
 {% blocktrans with site_name=current_site.name site_domain=current_site.domain %}See you soon on {{ site_name }}!

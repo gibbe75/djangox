@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-03 17:56+0200\n"
+"POT-Creation-Date: 2020-05-04 23:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,8 +22,8 @@ msgstr ""
 msgid ""
 "Dear %(user_display)s,\n"
 "\n"
-"We're delighted to have you on board! To active your account, please confirm "
-"your email address on %(activate_url)s\n"
+"We're delighted to have you on board! To active your %(site_name)s account, "
+"please confirm your email address on %(activate_url)s\n"
 msgstr ""
 "Bonjour %(user_display)s,\n"
 "\n"
@@ -42,7 +42,7 @@ msgid ""
 "%(site_domain)s"
 msgstr ""
 "A très vite sur %(site_name)s!\n"
-"L'équipe de %(site_name)s!\n"
+"L'équipe de %(site_name)s\n"
 "%(site_domain)s"
 
 #: .\templates\account\email\email_confirmation_subject.txt:4
@@ -80,7 +80,7 @@ msgstr ""
 
 #: .\templates\account\email_confirm.html:6
 #: .\templates\account\email_confirm.html:10
-msgid "Confirm E-mail Address"
+msgid "Confirm e-mail address"
 msgstr "Confirmation d'adresse e-mail"
 
 #: .\templates\account\email_confirm.html:16
@@ -103,20 +103,92 @@ msgid ""
 "\"%(email_url)s\">issue a new e-mail confirmation request</a>."
 msgstr ""
 
-#: .\templates\account\password_set.html:11
+#: .\templates\account\login.html:5 .\templates\account\login.html:8
+#: .\templates\account\login.html:12
+msgid "Log in"
+msgstr "Connexion"
+
+#: .\templates\account\login.html:14
+msgid "Forgot Password?"
+msgstr "Mot de passe oublié ?"
+
+#: .\templates\account\password_change.html:5
+#: .\templates\account\password_change.html:8
+#: .\templates\account\password_change.html:12
+#: .\templates\account\password_reset_from_key.html:5
+#: .\templates\account\password_set.html:12
+msgid "Change Password"
+msgstr ""
+
+#: .\templates\account\password_reset.html:5
+msgid "Password Reset"
+msgstr "Modification du mot de passe"
+
+#: .\templates\account\password_reset.html:8
+msgid "Forgot your password?"
+msgstr "Mot de passe oublié ?"
+
+#: .\templates\account\password_reset.html:12
+msgid "Reset Password"
+msgstr "Réinitialiser votre mot de passe"
+
+#: .\templates\account\password_reset_done.html:5
+#: .\templates\account\password_reset_done.html:8
+msgid "Password Reset Done"
+msgstr "Mot de passe réinitialisé"
+
+#: .\templates\account\password_reset_done.html:9
+msgid ""
+"We have sent you an e-mail. Please contact us if you do not receive it in a "
+"few minutes."
+msgstr ""
+"Nous venons de vous envoyer un email. Si vous ne recevez pas cet email d'ici "
+"5 minutes, pensez à vérifier vos spams ou contactez-nous."
+
+#: .\templates\account\password_reset_from_key_done.html:5
+msgid "Change Password Done"
+msgstr "Mot de passe modifié"
+
+#: .\templates\account\password_reset_from_key_done.html:8
+msgid "Password Change Done"
+msgstr "Mot de passe modifié"
+
+#: .\templates\account\password_reset_from_key_done.html:9
+msgid "Your password has been changed."
+msgstr "Votre mot de passe a été modifié"
+
+#: .\templates\account\password_set.html:5
+msgid "Set password"
+msgstr "Réinitialiser votre mot de passe"
+
+#: .\templates\account\password_set.html:12
 msgid "Set Password"
 msgstr ""
 
+#: .\templates\account\signup.html:5 .\templates\account\signup.html:8
+msgid "Create an account"
+msgstr "Créer un compte"
+
+#: .\templates\account\signup.html:12
+msgid "Create my account"
+msgstr "Créer mon compte"
+
+#: .\templates\account\verification_sent.html:3
+msgid "Sign up"
+msgstr "Créer votre compte"
+
 #: .\templates\account\verification_sent.html:5
 #: .\templates\account\verification_sent.html:8
-msgid "Verify Your E-mail Address"
-msgstr ""
+msgid "Verify your e-mail address"
+msgstr "Confirmation de votre adresse email"
 
 #: .\templates\account\verification_sent.html:10
 msgid ""
-"Welcome on board! We have sent an e-mail to you for verification. Follow the "
-"link provided to finalize the signup process. If you do not receive it "
-"within a few minutes, please check your spam inbox or contact us."
+"That's it, welcome on board! We have sent an e-mail to you for verification. "
+"Follow the link provided to finalize the signup process. If you do not "
+"receive it within a few minutes, please check your spam inbox or contact us."
 msgstr ""
-"Bienvenue ! Nous venons de vous envoyer un e-mail contenant une lien de vérification. Cliquez sur "
-"ce lien afin de finaliser la création de votre compte. Si vous ne recevez pas cet email d'ici 5 minutes, pensez à vérifier vos spams ou contactez-nous."
+"C'est fini ! Nous venons de vous envoyer un e-mail contenant une lien de "
+"vérification. Il ne vous reste plus qu'à cliquer sur ce lien pour finaliser "
+"la création de votre compte. Si vous ne recevez pas cet email d'ici 5 "
+"minutes, pensez à vérifier vos spams ou contactez-nous."

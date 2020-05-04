@@ -1,12 +1,12 @@
 {% extends "_base.html" %}
-{% block title %}Sign up{% endblock %}
 {% load i18n %}
+{% block title %}{% trans "Sign up" %}{% endblock title %}
 
-{% block head_title %}{% trans "Verify Your E-mail Address" %}{% endblock %}
+{% block head_title %}{% trans "Verify your e-mail address" %}{% endblock %}
 
 {% block content %}
-    <h1>{% trans "Verify Your E-mail Address" %}</h1>
+    <h1>{% trans "Verify your e-mail address" %}</h1>
 
-    <p>{% blocktrans %}Welcome on board! We have sent an e-mail to you for verification. Follow the link provided to finalize the signup process. If you do not receive it within a few minutes, please check your spam inbox or contact us.{% endblocktrans %}</p>
+    <p>{% blocktrans %}That's it, welcome on board! We have sent an e-mail to you for verification. Follow the link provided to finalize the signup process. If you do not receive it within a few minutes, please check your spam inbox or contact us.{% endblocktrans %}</p>
 
 {% endblock %}
